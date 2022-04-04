@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description"
+    content="Create a endpoint which create a file in a folder and endpoint for retrieve all the files from the folder." />
+</head>
+
+<body>
+    <div style="max-width: 800px; margin: 5%;">
+        <h1 style="text-align:center">Student Mentoring System</h1>
+
+        <h2>Create a endpoints to</h2>
+
+        <ol>
+            <li>Get all Students</li>
+            <li>Get all Mentors</li>
+            <li>Create a Student</li>
+            <li>Create A Mentor</li>
+            <li>Assigne Students To a Mentor</li>
+            <li>Assign Mentor To a Student</li>
+            <li>All Students Under a Mentor</li>
+        </ol>
+
+        <h2>BASE URL <a href="https://sm-hall-booking-api.herokuapp.com/">https://sm-hall-booking-api.herokuapp.com/</a></h2>
+        <h2>ENDPOINTS</h2>
+        <ul>
+            <li>
+                <h4>Get all students</h4>
+            <li>
+                <p>method : <b>Get</b></p>
+                <a href="/students">/students</a>
+            </li>
+            </li>
+            <li>
+                <p>method : <b>Get</b></p>
+                <h4>Get all Mentors</h4>
+            <li>
+                <a href="/mentors">/mentors</a>
+            </li>
+            </li>
+            <li>
+                <h4>Create Student</h4>
+            <li>
+                <p>method : <b>post</b></p>
+                <a href="/create-student">/create-student</a>
+            </li>
+            </li>
+            <li>
+                <h4>Create Mentor</h4>
+            <li>
+                <p>method : <b>post</b></p>
+                <a href="/create-mentor">/create-mentor</a>
+            </li>
+            </li>
+            <li>
+                <h4>Assign Students to Mentor</h4>
+            <li>
+                <p>method : <b>post</b></p>
+                <a href="/assign-student-to-mentor/:id">/assign-student-to-mentor/:id</a>
+            </li>
+            </li>
+            <li>
+                <h4>Assign Mentor to Student</h4>
+            <li>
+                <p>method : <b>post</b></p>
+                <a href="/assign-mentor-to-student/:id">/assign-mentor-to-student/:id</a>
+            </li>
+            </li>
+            <li>
+                <h4>Get ALl Students Under A mentor</h4>
+            <li>
+                <p>method : <b>Get</b></p>
+                <a href="/all-students-under-mentor/:id">/all-students-under-mentor/:id</a>
+            </li>
+            </li>
+        </ul>
+    </div>
+
+    <hr />
+</body>
+
+</html>
